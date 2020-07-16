@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Mybtn.qml</file>
+        <file>Myslide.qml</file>
+    </qresource>
+</RCC>
