@@ -1,1 +1,2 @@
 
+in this project i tried to make basic manu application with qml scripting language . i have learnt lots of features with this project ( like signals and slots , properties and qml and cpp entegration ) . with manu application i put some person information on manu side and i could be lots of things such as dinner menu , clothes price list , restourant ordering for waitress or gallery application whit entegration of QDir library. 
