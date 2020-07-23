@@ -17,7 +17,7 @@ Item {
         y:-live.y
         width: frsource.width
         height: frsource.height
-        radius:blurm
+        radius:live.blurm
     }
 
     ColorOverlay{
