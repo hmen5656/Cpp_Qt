@@ -27,23 +27,31 @@ Window {
             }
         }
 
+       property string st:"arttir"
         Timer{
             id:mytmr
             interval: 1000
             repeat: true
             running: false
             onTriggered: {
-                parent.value+=10
-            }
+                if(rootrect.st=="arttir"){
+                    parent.value+=10
+                    if(parent.value==100)
+                        rootrect.st=="azalt"
+                }
+                else if(rootrect.st=="azalt"){
+                    parent.value-=10
+                    if(parent.value==0)
+                         rootrect.st=="arttir"
+                    }
 
-        }
+            }
 
     }
     LiveBlur{
         id:lvblr
         frsource: rootrect
-        xpos:rootrect.value
-        ypos:rootrect.value
+        blur: rootrect.value
     }
 
 
