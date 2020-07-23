@@ -51,7 +51,7 @@ Window {
     LiveBlur{
         id:lvblr
         frsource: rootrect
-        blur: rootrect.value
+        blurm: rootrect.value
     }
 
 
