@@ -3,9 +3,7 @@ import QtGraphicalEffects 1.0
 Item {
 
     property variant frsource;
-    property int  xpos;
-    property int  ypos;
-
+    property int  blurm;
 
     id:live
     width: parent.width
@@ -19,7 +17,7 @@ Item {
         y:-live.y
         width: frsource.width
         height: frsource.height
-        radius:100
+        radius:blurm
     }
 
     ColorOverlay{
